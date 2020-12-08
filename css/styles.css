@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;  
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: rgb(175,82,5);
+  background: linear-gradient(90deg, rgba(175,82,5,1) 0%, rgba(247,104,56,1) 30%, rgba(242,145,17,1) 100%);
+}
+
+img {
+    max-width: 5rem;
+    height: auto;
+}
+
+hr.red {
+    border-top: 3px solid red;
+}
+
+hr.orange {
+    border-top: 3px solid orange;
+}
+
+hr.yellow {
+    border-top: 3px solid yellow;
+}
+
+hr.green {
+    border-top: 3px solid green;
+}
+
+hr.blue {
+    border-top: 3px solid blue;
+}
+
+hr.purple {
+    border-top: 3px solid purple;
+}
+
+.link-decoration {
+    text-decoration: none !important;
+    color: #31064d;
+}
+
+.p-minium {
+    font-size: .8rem;
+}
+
+.col-hr {
+    padding: inherit !important;
+}
+
+.card {
+    border-radius: 0.5rem;
+}
+
+.img-icon {
+    max-width: 1rem;
+    height: auto;
+}
